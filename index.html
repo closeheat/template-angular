@@ -1,9 +1,11 @@
-<html>
+<html ng-app>
   <head>
   </head>
   <body>
-    <h1>
-      Angular template
-    </h1>
+    <h1>Hello Beautiful Angular {{ thing }}</h1>
+
+    <input type="text" ng-model="thing">
+
+    <script src="js/angular.min.js"></script>
   </body>
 </html>
